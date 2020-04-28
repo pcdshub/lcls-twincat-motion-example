@@ -6,7 +6,7 @@ PRODUCTION_IOC := 0
 
 PROJECT_NAME = lcls-twincat-motion-example
 PROJECT_PATH := ../../lcls-twincat-motion-example/lcls-twincat-motion-example.tsproj
-PLC = Example
+PLC = tc_mot_example
 
 PYTMC_OPTS :=
 PREFIX = PLC:TST:MOT

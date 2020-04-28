@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{ca7ac114-7f2f-41dd-9644-d0667bbb7dbd}</ProjectGuid>
     <SubObjectsSortedByName>True</SubObjectsSortedByName>
-    <Name>tc_motion_example</Name>
+    <Name>tc_mot_example</Name>
     <ProgramVersion>3.1.4022.7</ProgramVersion>
     <Application>{758e956e-09cf-453b-a78c-613ffd98696e}</Application>
     <TypeSystem>{6d62377e-b52c-43f8-bfd5-8c4842b045fd}</TypeSystem>
@@ -52,7 +52,7 @@
     </PlaceholderResolution>
   </ItemGroup>
   <ItemGroup>
-    <None Include="tc_motion_example.tmc">
+    <None Include="tc_mot_example.tmc">
       <SubType>Content</SubType>
     </None>
   </ItemGroup>
