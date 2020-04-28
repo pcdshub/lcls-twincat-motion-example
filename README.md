@@ -1,5 +1,5 @@
 # lcls-twincat-motion-example
-Example useage of lcls-twincat-motion
+Example usage of lcls-twincat-motion
 
 Contains an iocBoot directory that builds an IOC based on the
 accompanying TwinCAT project using pytmc.
