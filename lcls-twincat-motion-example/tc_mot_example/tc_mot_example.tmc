@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <TcModuleClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2009/05/TcModuleClass" Hash="{04F5ADE1-B52F-4463-A8DC-3C87CD796D8D}" GeneratedBy="TwinCAT XAE Plc">
   <DataTypes>
     <DataType>
@@ -2182,7 +2182,7 @@
         <BitSize>192</BitSize>
         <BitOffs>96</BitOffs>
         <Default>
-          <String />
+          <String/>
         </Default>
         <Properties>
           <Property>
@@ -2227,7 +2227,7 @@
         <BitSize>192</BitSize>
         <BitOffs>320</BitOffs>
         <Default>
-          <String />
+          <String/>
         </Default>
         <Properties>
           <Property>
@@ -3280,13 +3280,13 @@ External Setpoint Generation:
           <Type GUID="{F794B740-82D7-4637-848E-4F74A711D038}">NCAXLESTRUCT_TOPLC4</Type>
         </Relation>
         <Relation Priority="100">
-          <Type GUID="{40BD39B0-C3EA-4F74-9F4F-5F1982786F7C}" />
+          <Type GUID="{40BD39B0-C3EA-4F74-9F4F-5F1982786F7C}"/>
         </Relation>
         <Relation Priority="100">
-          <Type GUID="{40BD39B2-C3EA-4F74-9F4F-5F1982786F7C}" />
+          <Type GUID="{40BD39B2-C3EA-4F74-9F4F-5F1982786F7C}"/>
         </Relation>
         <Relation Priority="100">
-          <Type GUID="{8CDE0C45-AB9D-42DB-BC94-1CF7521AB268}" />
+          <Type GUID="{8CDE0C45-AB9D-42DB-BC94-1CF7521AB268}"/>
         </Relation>
       </Relations>
     </DataType>
@@ -13342,10 +13342,10 @@ External Setpoint Generation:
         <BitOffs>1024</BitOffs>
       </SubItem>
       <Hides>
-        <Hide GUID="{D91E046A-A488-4D27-8D43-0F3C40ED5081}" />
-        <Hide GUID="{5DCEB2BC-E196-43AD-80B7-EBACF31A430B}" />
-        <Hide GUID="{1B9FDDE4-B3B7-4F0F-AB14-24EDC2F643E7}" />
-        <Hide GUID="{C1C52E30-BC0B-44CA-BF39-E2FE7F2D145C}" />
+        <Hide GUID="{D91E046A-A488-4D27-8D43-0F3C40ED5081}"/>
+        <Hide GUID="{5DCEB2BC-E196-43AD-80B7-EBACF31A430B}"/>
+        <Hide GUID="{1B9FDDE4-B3B7-4F0F-AB14-24EDC2F643E7}"/>
+        <Hide GUID="{C1C52E30-BC0B-44CA-BF39-E2FE7F2D145C}"/>
       </Hides>
     </DataType>
     <DataType>
@@ -13424,8 +13424,8 @@ External Setpoint Generation:
         <BitOffs>512</BitOffs>
       </SubItem>
       <Hides>
-        <Hide GUID="{6A76D020-03A2-465C-A678-C341951E9EF3}" />
-        <Hide GUID="{6F7D679F-72A0-4831-A7F1-085F839743ED}" />
+        <Hide GUID="{6A76D020-03A2-465C-A678-C341951E9EF3}"/>
+        <Hide GUID="{6F7D679F-72A0-4831-A7F1-085F839743ED}"/>
       </Hides>
     </DataType>
     <DataType>
@@ -13658,7 +13658,7 @@ External Setpoint Generation:
     <Module GUID="{758E956E-09CF-453B-A78C-613FFD98696E}" TcSmClass="TComPlcObjDef">
       <Name>tc_mot_example</Name>
       <CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
-      <Licenses />
+      <Licenses/>
       <Contexts>
         <Context>
           <Id NeedCalleeCall="true">0</Id>
@@ -13668,7 +13668,7 @@ External Setpoint Generation:
           </ManualConfig>
         </Context>
       </Contexts>
-      <Parameters />
+      <Parameters/>
       <DataAreas>
         <DataArea>
           <AreaNo AreaType="InputDst" CreateSymbols="true">0</AreaNo>
@@ -16630,15 +16630,15 @@ External Setpoint Generation:
             <Default>
               <SubItem>
                 <Name>.sName</Name>
-                <String />
+                <String/>
               </SubItem>
               <SubItem>
                 <Name>.sNetID</Name>
-                <String />
+                <String/>
               </SubItem>
               <SubItem>
                 <Name>.sAddress</Name>
-                <String />
+                <String/>
               </SubItem>
               <SubItem>
                 <Name>.tTimeout</Name>
@@ -18382,8 +18382,8 @@ External Setpoint Generation:
           </Symbol>
         </DataArea>
       </DataAreas>
-      <Deployment />
-      <EventClasses />
+      <Deployment/>
+      <EventClasses/>
       <Properties>
         <Property>
           <Name>ApplicationName</Name>
