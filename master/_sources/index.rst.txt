@@ -1,0 +1,29 @@
+lcls-twincat-motion-example
+---------------------------
+
+.. toctree::
+    :maxdepth: 2
+    :caption: lcls-twincat-motion-example
+
+    lcls-twincat-motion-example_pragmas
+    lcls-twincat-motion-example_nc
+    lcls-twincat-motion-example_boxes
+    lcls-twincat-motion-example_links
+
+
+.. toctree::
+    :maxdepth: 2
+    :caption: tc_mot_example
+
+    lcls-twincat-motion-example_tc_mot_example_summary
+    lcls-twincat-motion-example_tc_mot_example_epics
+    lcls-twincat-motion-example_tc_mot_example_source
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
