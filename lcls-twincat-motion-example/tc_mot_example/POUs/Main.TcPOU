@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.18">
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.4">
   <POU Name="Main" Id="{7b41e58a-08f0-4959-90b4-af08ef5cbf10}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM Main
 VAR
@@ -26,6 +26,11 @@ VAR
     '}
     M3: DUT_MotionStage;
     fbMotion3: FB_MotionStage;
+
+    stM1Extra : DUT_MotionStage_Extras;
+    stM2Extra : DUT_MotionStage_Extras;
+    stM3Extra : DUT_MotionStage_Extras;
+
 END_VAR]]></Declaration>
     <Implementation>
       <ST><![CDATA[fbMotion1(stMotionStage := M1);
@@ -34,7 +39,17 @@ fbMotion3(stMotionStage := M3);
 M3.bHardwareEnable := TRUE;
 M3.bPowerSelf := TRUE;
 M3.bLimitForwardEnable := M3.Axis.NcToPlc.ActPos < 99.7;
-M3.bLimitBackwardEnable := M3.Axis.NcToPlc.ActPos > 0.2;]]></ST>
+M3.bLimitBackwardEnable := M3.Axis.NcToPlc.ActPos > 0.2;
+
+(* Update extras for visualization purposes *)
+stM1Extra.bVisuHighLim := NOT M1.bAllForwardEnable;
+stM1Extra.bVisuLowLim := NOT M1.bAllBackwardEnable;
+
+stM2Extra.bVisuHighLim := NOT M2.bAllForwardEnable;
+stM2Extra.bVisuLowLim := NOT M2.bAllBackwardEnable;
+
+stM3Extra.bVisuHighLim := NOT M3.bAllForwardEnable;
+stM3Extra.bVisuLowLim := NOT M3.bAllBackwardEnable;]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
